@@ -7,11 +7,12 @@
 
   <servlet>
     <servlet-name>SkillServlet</servlet-name>
-    <servlet-class>com.company.controller.SkillServlet</servlet-class>
+    <servlet-class>com.company.controller.SkillController</servlet-class>
   </servlet>
+
 
   <servlet-mapping>
     <servlet-name>SkillServlet</servlet-name>
-    <url-pattern>/</url-pattern>
+    <url-pattern>/skills</url-pattern>
   </servlet-mapping>
 </web-app>

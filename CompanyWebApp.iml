@@ -45,5 +45,7 @@
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:3.0.7" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.13" level="project" />
+    <orderEntry type="library" name="javax.servlet:jstl:1.1.2" level="project" />
+    <orderEntry type="library" name="org.apache.taglibs:taglibs-standard-spec:1.2.5" level="project" />
   </component>
 </module>
