@@ -16,7 +16,7 @@ public class Skill {
 
     }
 
-    public Skill(int id,String name) {
+    public Skill(int id, String name) {
         this.id = id;
         this.name = name;
     }

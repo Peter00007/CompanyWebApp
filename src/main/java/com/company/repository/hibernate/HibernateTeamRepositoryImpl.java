@@ -41,7 +41,7 @@ public class HibernateTeamRepositoryImpl implements TeamRepository{
         Session session = HibernateUtil.getSessionFactory().openSession();
 
         SQLQuery sqlQuery = session.createSQLQuery(getAllMessage);
-        List<Team> list = new ArrayList<Team>();
+        List<Team> list = new ArrayList<>();
         List<Object> result = (List<Object>) sqlQuery.list();
         Iterator itr = result.iterator();
         while (itr.hasNext()) {
